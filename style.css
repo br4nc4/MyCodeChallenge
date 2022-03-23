@@ -55,18 +55,20 @@ main{     /* proprietà del blocco Main */
   font-family: Mulish;
 }
 
-main h1{    /* NO div h1 h3 perchè proprietà diverse (vedi font-size) */
+main h1{
   font-size: 37px;
   display: inline;  /* affianco a checkbox il nome utente*/
 }
 
-
-div h3{    /* NO div h1 h3 perchè proprietà diverse */
-  font-size: 23px;
-  margin-block-start: 0.2em;  /*stabilisco dei margini altrimenti senza c'è troppa distanza tra le scritte*/
-  margin-block-end: 0.2em;
+main h2:before{
+  content: "\21A6";
 }
 
+div h3, h2{
+  font-size: 23px;
+  margin-block-start: 0.2em; /*stabilisco una distanza tra le scritte*/
+  margin-block-end: 0.2em;
+}
 
 .carica1{          /*Proprietà estetiche dei blocchi carica*/
   background-color: yellow;
