@@ -1,0 +1,98 @@
+body{
+  background-color: lightgrey;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+/* start css header */
+.container{         /* caratteristiche del contenitore */
+  width: 1900px;
+  height: 1200px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+img{          /*ridimensionamento del logo */
+  width: 320px;
+  height: 170;
+  margin-top: 130px;
+}
+
+header h1{      /*proprietà del titolo*/
+  color: lime;
+  font-family: Mulish;
+  font-size: 45px;
+  margin-block-start: 0.20em;
+  margin-block-end: 0.20em;
+}
+/* end css header */
+
+/* start css Nav */
+nav div{       /* blocco estetico per posizionare button e sue proprietà */
+  display: inline-block;
+  width: 1500px;
+  height: 60px;
+  background-color: lime;
+  margin-block-end: 1.2em; /* specifo la distanza dalla sezione Main */
+}
+
+div button{  /* proprietà button */
+  font-size: 18px;
+  margin-top: 15px;
+  font-family: Mulish;
+}
+/* end css Nav */
+
+/* start css Main */
+main{     /* proprietà del blocco Main */
+  width: 1500px;
+  height: 750px;
+  display: inline-block;
+  margin-left: 200px;   /* utlizzando Marign: Auto; non riesco a centrare */
+  background-color: rgba(0, 0, 0, 0.0); /* il colore principale è quello di container NO SOVRAPPOZIONE DI COLORI */
+  color:white;
+  font-family: Mulish;
+}
+
+main h1{    /* NO div h1 h3 perchè proprietà diverse (vedi font-size) */
+  font-size: 37px;
+  display: inline;  /* affianco a checkbox il nome utente*/
+}
+
+
+div h3{    /* NO div h1 h3 perchè proprietà diverse */
+  font-size: 23px;
+  margin-block-start: 0.2em;  /*stabilisco dei margini altrimenti senza c'è troppa distanza tra le scritte*/
+  margin-block-end: 0.2em;
+}
+
+
+.carica1{          /*Proprietà estetiche dei blocchi carica*/
+  background-color: yellow;
+  width: 600px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.carica2{            /*Proprietà estetiche dei blocchi carica*/
+  background-color: red;
+  width: 1000px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.carica3{          /*Proprietà estetiche dei blocchi carica*/
+  background-color: blue;
+  width: 400px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.userblock{  /* assegno una distanza fissa ad ogni userblock */
+  margin-block-end: 2.2em;
+}
+/*end css Main */
